@@ -1,0 +1,60 @@
+.tab {
+    display: flex; 
+    align-items: center;
+    background:#333; 
+    padding: 10px; 
+}
+.logo {
+    width: 65px;
+    height: 65px; 
+    margin-right: 20px; 
+}
+
+.navlist {
+    list-style: none; 
+    padding: 0;
+    display: flex; 
+    margin: 0; 
+}
+
+.navlist li {
+    margin: 0 15px;
+}
+
+.navlist a {
+    color: whitesmoke;
+    text-decoration: none; 
+    padding: 5px 10px; 
+}
+
+a{
+    color: whitesmoke;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:bisque;
+}
+
+h1, h2 {
+    color: #5c5959;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background: beige;
+    border-radius: 5px;
+}
+
+
+.image {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 2%;
+    background: #333;
+    color: white;
+}
