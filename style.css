@@ -1,8 +1,17 @@
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:bisque;
+}
+
 .tab {
-    display: flex; 
-    align-items: center;
     background:#333; 
-    padding: 10px; 
+    padding: 30px; 
 }
 .logo {
     width: 65px;
@@ -13,27 +22,21 @@
 .navlist {
     list-style: none; 
     padding: 0;
-    display: flex; 
     margin: 0; 
+    margin-left: 20%;
 }
 
 .navlist li {
     margin: 0 15px;
+    display: inline;
 }
+
+
 
 .navlist a {
     color: whitesmoke;
     text-decoration: none; 
     padding: 5px 10px; 
-}
-
-a{
-    color: whitesmoke;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color:bisque;
 }
 
 h1, h2 {
@@ -45,8 +48,6 @@ section {
     background: beige;
     border-radius: 5px;
 }
-
-
 .image {
     max-width: 100%;
     margin: 10px 0;
@@ -58,3 +59,5 @@ footer {
     background: #333;
     color: white;
 }
+
+
